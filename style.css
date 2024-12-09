@@ -2,37 +2,39 @@
   font-family: "Verdana";
   box-sizing: border-box;
 }
-body{
 
-    background-color: #FFD5DC;
+body {
+
+  background-color: #FFD5DC;
+  color: black;
 }
 
 ul {
-    list-style-type: none;
-    border-radius:10px ;
-    height: 1cm;
-    padding-top: 8px;
-    overflow: hidden;
-    background-color: pink;
-  }
-  
-  li {
-    float: left;
-  }
-  
-  li a {
+  list-style-type: none;
+  border-radius: 10px;
+  height: 1cm;
+  padding-top: 8px;
+  overflow: hidden;
+  background-color: pink;
+}
 
-    margin-top: 10px;
-    color: black;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-  }
-  
-  li a:hover {
-    background-color: pink;
-    color: white;
-  }
+li {
+  float: left;
+}
+
+li a {
+
+  margin-top: 10px;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: pink;
+  color: white;
+}
 
 .textt {
   margin-top: 2cm;
@@ -44,16 +46,17 @@ ul {
 .foto-midden {
   display: flex;
   justify-content: center;
-  align-items:center;
+  align-items: center;
 }
+
 #videoo {
   margin-top: 30px;
   display: flex;
   justify-content: center;
-  align-items:center;
+  align-items: center;
   width: 40vw;
   height: 47vh;
-  
+
 }
 
 #videooo {
@@ -61,6 +64,7 @@ ul {
 
 
 }
+
 .contact-form h2 {
   text-align: left;
   margin-bottom: 10px;
@@ -94,9 +98,9 @@ ul {
   font-size: 16px;
   cursor: pointer;
   display: flex;
-  justify-content: center;  
-  align-items: center;      
-  text-align: center;       
+  justify-content: center;
+  align-items: center;
+  text-align: center;
 }
 
 
@@ -104,7 +108,7 @@ ul {
   width: 700px;
   margin-left: 50px;
   margin-top: 10px;
-  
+
 }
 
 .contact-form button:hover {
@@ -132,7 +136,7 @@ form {
 }
 
 #tcr {
-  position:absolute;
+  position: absolute;
   top: 55px;
   right: 10px;
 }
@@ -153,9 +157,9 @@ form {
 #tabel {
   margin-top: 3cm;
   text-align: center;
-  width:0.1%;
+  width: 0.1%;
   white-space: nowrap;
-  margin-left: 5.5cm; 
+  margin-left: 5.5cm;
 
 }
 
@@ -182,4 +186,49 @@ form {
   box-shadow: 0 4px 15px rgba(0, 0, 0, 0.5);
   background-color: pink;
   cursor: pointer;
+}
+
+/* body {
+  background-color: white;
+  color: rgb(221, 168, 177);
+  font-size: 25px;
+} */
+
+.dark-mode {
+  background-color: #8c8889;
+  color: white;
+}
+
+.Darkk {
+  position: relative;
+  float: right;
+  right: 2%;
+}
+
+.cookie-banner {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: #333;
+  color: white;
+  padding: 15px;
+  text-align: center;
+  font-family: Arial, sans-serif;
+  box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.5);
+}
+
+.accept-button {
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  margin-left: 10px;
+  cursor: pointer;
+  font-size: 14px;
+  border-radius: 5px;
+}
+
+.accept-button:hover {
+  background-color: #45a049;
 }
